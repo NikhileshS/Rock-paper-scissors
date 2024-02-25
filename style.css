@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    background-color:rgb(36, 35, 36);
+    color: whitesmoke;
+    font-size: 32px;
+}
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    gap: 50px;
+    font-size: 22px;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 75px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: rgb(36, 35, 36);
+    color: aliceblue;
+}
+.playagain{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 35, 36);;
+}
+
